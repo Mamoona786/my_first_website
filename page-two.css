@@ -1,0 +1,257 @@
+.our-services{
+    padding-top: 5%;
+  }
+  .slogan{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  a{
+    color:red;
+  }
+  .cover{
+      position:fixed;
+      /* background-color:white; */
+      left: 10%;
+      right: 10%;
+      color:black;
+      background-image: url(https://img.freepik.com/premium-photo/yellow-bokeh-light-pink-background-abstract-wallpaper_647082-12.jpg?w=2000);
+   }
+  /* Main fixed heading */
+  h1{
+      text-align: center;
+      font-size: 80px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  /* Other headings of this page */
+  h2{
+    text-align: left;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  /* 4 options below main fixed heading */
+  .contain{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      text-align:center;
+      font-size: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .horizontal{
+      display:flex;
+      flex-direction: row;
+  }
+  .vertical{
+      display:flex;
+      flex-direction: column;
+  }
+  p,
+  li{
+      text-align: justify;
+      font-size: 20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .form{
+      padding-top: 20%;
+      width: 100%;
+      height: 700px;
+  }
+  form,
+  fieldset {
+    max-width: 500px; /*total width of the form*/
+    margin: 50px auto; /*margin from top and bottom */
+    background-color:bisque;
+  }
+
+  legend { /*style to the "Add User" text named legend*/
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 0 15px 0 5px;
+    background-color: beige;
+  }
+  .container {
+    display: flex;
+    flex-direction: column; /*for this step, above step is mandatory*/
+    max-width: 350px; /*fixed width of the form*/
+    margin: 0 auto; /*margin from left and right*/
+    text-align: center; /*headings text align design*/
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row; /*direction of status,date,radio boxes and checkboxes*/
+    margin: 10px 0;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column; /*direction of headings and their input*/
+    width: 100%; /*width of other sections other than radio boxes, check boxes, and status & date section*/
+  }
+
+  label {
+    margin-bottom: 2px;
+  }
+
+  /*Following 5 properties are for maintaining distance between radio boxes*/
+  .column-short {
+    margin-left: 10px;
+    width: 75%;
+  }
+
+  .column-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .column-inline label {
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: left;
+  }
+
+  .column-third {
+    margin-top: -20px;
+    width: 33%;
+  }
+  .column-third label {
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+
+  input[type=checkbox],
+  input[type=radio] {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  #layout{
+      /* padding-top: 50%; */
+      width: 100%;
+      height: 800px;
+      margin: 0 0 0 0;
+      background-image: url(https://img.freepik.com/premium-photo/abstract-blur-clothing-boutique-display-interior-shopping-mall-background_293060-19871.jpg?w=2000);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .full{
+    background-color:rgb(255, 74, 74);
+    width:800px;
+    padding: 20px;
+  }
+
+  input:checked + label{
+    color:red;
+    /* This will change the color of the label and checkbox when they are checked */
+  }
+
+  /* Radio element, when checked */
+  input[type = "radio"]:checked{
+    box-shadow: 0 0 0 2px orange;
+  }
+
+
+  button:hover{
+    color:white;
+    border-color:black;
+    background-color: black;
+  }
+
+  button:active{
+    color:crimson;
+    background-color: bisque;
+  }
+
+  /* checkbox element, when checked */
+  input[type = "checkbox"]:checked{
+    box-shadow: 0 0 0 2px hotpink;
+  }
+
+  /* Option elements, when selected */
+  option:checked{
+    box-shadow: 0 0 0 3px lime;
+    color: red;
+  }
+
+  .h-three{
+      font-size: 20px;
+      display:block;
+  }
+  th{
+    font-size: 30px;
+  }
+  .table{
+      display: flex;
+      flex-direction: row;
+      font-size: 20px;
+      padding-left: 20px;
+  }
+  .contact-us{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .contact_us{
+    margin-left:70%;
+  }
+  .bold-table-data{
+      font-weight: bold;
+      width: 20%;
+  }
+  .social-media-icons-white a{
+      color:white;
+      font-size:50px;
+  }
+  .fa {
+      padding: 20px;
+    text-align: center;
+      margin: 5px 2px;
+      font-size: 30px;
+      width: 50px;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .fa-snapchat-ghost {
+      background: #fffc00;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .fa:hover {
+        opacity: 0.9;
+    }
+  .contact-us{
+      display: flex;
+  }
+  .buttons{
+    text-align: center;
+    font-size: 100px;
+  }
+  button:hover{
+    background-color:black;
+  }
+  #link-for-page-numbers{
+    color:black;
+  }
+  #link-for-page-numbers:hover{
+    background-color: black;
+    color:white;
+  }
+  option:checked{
+    box-shadow: 0 0 0 3px lime;
+    color: red;
+  }
+  .footer{
+    background-image: url(https://img.freepik.com/premium-photo/yellow-bokeh-light-pink-background-abstract-wallpaper_647082-12.jpg?w=2000);
+  }
